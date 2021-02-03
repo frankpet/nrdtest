@@ -1,0 +1,21 @@
+{
+  "name": "nodeserver-v2",
+  "version": "1.0.0",
+  "description": "node leqqr-v2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Frank Pet",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.19.4",
+    "nodemon": "^2.0.7",
+    "socket.io": "^2.3.0",
+    "socketio-jwt": "^4.6.2"
+  }
+}
